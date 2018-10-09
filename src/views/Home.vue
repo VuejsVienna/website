@@ -4,7 +4,7 @@
       <b-col class="left">
         <b-container>
             <div class="text">
-              <h1>Come Meet-Up With <span>Vue.js</span> Enthusiasts In Vienna!</h1>
+              <h1>Create, learn &amp; meet new <span>Vue.js</span> enthusiasts in Vienna</h1>
               <p>
                 This is a group for anyone interested in "Vue.js - The Progressive JavaScript Framework".
                 The goal is to provide monthly meetups where people give talks on Vue.js and related topics, and people can get together with other developers in the community.
@@ -12,7 +12,7 @@
               <div class="next-meetup">
                 <h3>Next meetup:</h3>
                 <ul>
-                  <li>Tuesday, November 6, 2018</li>
+                  <li>Friday, November 30, 2018</li>
                   <li>|</li>
                   <li>Certible, Löwelstraße 20</li>
                 </ul>
@@ -24,7 +24,7 @@
       <b-col class="right">
         <b-container>
           <div class="logo">
-            <img alt="Vue logo" src="../assets/logo.png">
+            <img alt="Vue logo" src="../assets/vue-js-vienna-logo.png">
           </div>
         </b-container>
       </b-col>
@@ -100,7 +100,7 @@ export default {
     align-items: center;
     justify-content: center;
     img {
-      max-width: 250px;
+      // max-width: 500px;
     }
   }
   @media (max-width: 576px) {
