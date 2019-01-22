@@ -12,12 +12,12 @@
               <div class="next-meetup">
                 <h3>Next meetup:</h3>
                 <ul>
-                  <li>Friday, November 30, 2018</li>
+                  <li>Thursday, February 21, 2019</li>
                   <li>|</li>
-                  <li>Certible, Löwelstraße 20</li>
+                  <li>IBM Client Innovation Center Austria</li>
                 </ul>
               </div>
-              <b-button href="https://www.meetup.com/Vue-js-Vienna/">Join us!</b-button>
+              <b-button href="https://www.meetup.com/Vue-js-Vienna/events/258219153/">Join us!</b-button>
             </div>
         </b-container>
       </b-col>
