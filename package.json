@@ -6,10 +6,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "upload": "npm run build; s3-deploy './dist/**' --cwd './dist/' --signatureVersion v4 --bucket www.vuejs-vienna.org"
+    "start": "node server.js",
+    "now-build": "vue-cli-service build",
+    "s3": "npm run build; s3-deploy './dist/**' --cwd './dist/' --signatureVersion v4 --bucket www.vuejs-vienna.org",
+    "now": "npm run build && now --public && now alias",
+    "ibm": "npm run build; cf push"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
+    "express": "^4.16.4",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
