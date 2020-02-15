@@ -12,12 +12,12 @@
               <div class="next-meetup">
                 <h3>Next meetup:</h3>
                 <ul>
-                  <li>Thursday, February 21, 2019</li>
+                  <li>Thursday, March 19, 2020</li>
                   <li>|</li>
-                  <li>IBM Client Innovation Center Austria</li>
+                  <li>EBCONT in Millennium Tower</li>
                 </ul>
               </div>
-              <b-button href="https://www.meetup.com/Vue-js-Vienna/events/258219153/">Join us!</b-button>
+              <b-button href="https://www.meetup.com/vuejsvienna/events/268233829/">Join us!</b-button>
             </div>
         </b-container>
       </b-col>
