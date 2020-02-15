@@ -2,29 +2,55 @@
   "name": "vuejs-vienna",
   "version": "0.1.0",
   "private": true,
+  "author": "Markus Danek",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js",
-    "now-build": "vue-cli-service build",
-    "s3": "npm run build; s3-deploy './dist/**' --cwd './dist/' --signatureVersion v4 --bucket www.vuejs-vienna.org",
-    "now": "npm run build && now --public && now alias",
-    "ibm": "npm run build; cf push"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
-    "express": "^4.16.4",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "bootstrap-vue": "^2.4.2",
+    "core-js": "^3.6.4",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.4",
-    "@vue/cli-plugin-eslint": "^3.0.4",
-    "@vue/cli-service": "^3.0.4",
-    "node-sass": "^4.9.0",
-    "s3-deploy": "^1.1.1",
-    "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.17"
-  }
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-pwa": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-typescript": "^5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
